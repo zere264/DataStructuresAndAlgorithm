@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace DataStructuresAndAlgorithm
 {
     class Program
     {
@@ -26,7 +24,7 @@ namespace ConsoleApp1
         public static void TestReadingFile(string keyString)
         {
             var memoryBefore = GC.GetTotalMemory(true);
-            StreamReader sr= File.OpenText("F:\\tempFile.txt");//读取文本文件
+            StreamReader sr = File.OpenText("F:\\tempFile.txt");//读取文本文件
             var fileContents = new List<string>(); // 将文本内容添加到一个 List<string> 变量
             while (!sr.EndOfStream)
             {
@@ -34,17 +32,15 @@ namespace ConsoleApp1
             }
 
             // 检索目标文本（字符串）
-            for(int i=0;i<7;i++)
+            for (int i = 0; i < 7; i++)
             {
                 Console.WriteLine(fileContents[i]);
             }
-      
 
-        
+
+
 
         }
 
-
     }
-
 }
