@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,6 @@ namespace DataStructuresAndAlgorithm
             var KeyString = "人工智能";
             Console.WriteLine(KeyString);
             TestReadingFile(KeyString);
-
             Console.ReadKey();
         }
 
@@ -36,11 +36,6 @@ namespace DataStructuresAndAlgorithm
             {
                 Console.WriteLine(fileContents[i]);
             }
-
-
-
-
         }
-
     }
 }
