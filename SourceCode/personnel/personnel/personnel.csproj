@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0ADB5DB0-D23D-432C-8319-C602FE7F4DEA}</ProjectGuid>
+    <ProjectGuid>{BFF33276-9223-4CBC-B0E2-D286E11054DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataStructuresAndAlgorithm</RootNamespace>
-    <AssemblyName>DataStructuresAndAlgorithm</AssemblyName>
+    <RootNamespace>personnel</RootNamespace>
+    <AssemblyName>personnel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\PersonsInProvince.cs" />
+    <Compile Include="PersonList.cs" />
+    <Compile Include="PersonListRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

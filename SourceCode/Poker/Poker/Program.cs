@@ -53,7 +53,9 @@ namespace Poker
             {
                 listUser[i].sort();
             }
-
+            Console.WriteLine("依据上面牌值排序！！！！！！！！！！！！！！！！！");
+            Console.WriteLine("依据上面牌值排序！！！！！！！！！！！！！！！！！");
+            Console.WriteLine("依据上面牌值排序！！！！！！！！！！！！！！！！！");
             foreach (var item in listUser)
             {
                 item.Introduce();

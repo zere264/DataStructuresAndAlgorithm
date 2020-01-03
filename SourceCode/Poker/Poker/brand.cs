@@ -39,16 +39,16 @@ namespace Poker
 
             switch(Type)
             {
-                case "黑桃":
+                case "方块":
                     a = 0;
                     break;
-                case "红桃":
+                case "梅花":
                     a = 13;
                     break;
-                case "梅花":
+                case "红桃":
                     a = 26;
                     break;
-                case "方块":
+                case "黑桃":
                     a = 39;
                     break;
                 case "小王":
